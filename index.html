@@ -2,49 +2,47 @@
 <html lang="en">
 <head>
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-5PDMF5WZTM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-5PDMF5WZTM');
-</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5PDMF5WZTM"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-5PDMF5WZTM');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather app </title>
+    <title>Weather App - Current Weather</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
     <div class="card">
         <div class="search">
             <input type="text" placeholder="Search the City" spellcheck="false">
-            <button><img src="images/search.png" ></button>
+            <button><img src="images/search.png"></button>
         </div>
         <div class="error">
             <p>Invalid city name</p>
         </div>
         <div class="weather">
-            <img src="images/rain.png" class="weather-icon" >
-            <h1 class="temp">22 °c</h1>
-            <h2 class="city">New york</h2>
-        <div class="details">
-            <div class="col">
-                <img src="images/humidity.png" >
-                <div>
-                    <p class="humidity">50%</p>
-                    <p>Humidity</p>
+            <img src="images/rain.png" class="weather-icon">
+            <h1 class="temp">22 °C</h1>
+            <h2 class="city">New York</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png">
+                    <div>
+                        <p class="wind">20 km/h</p>
+                        <p>Wind Speed</p>
+                    </div>
                 </div>
             </div>
-            <div class="col">
-                <img src="images/wind.png" >
-                <div>
-                    <p class="wind">20km/h</p>
-                    <p> wind speed</p>
-                </div>
-            </div>
-        </div>
         </div>
     </div>
     <script src="script.js"></script>
