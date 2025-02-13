@@ -1,4 +1,4 @@
-<style>
+
 * {
     margin: 0;
     padding: 0;
@@ -17,16 +17,20 @@ body {
 header {
     width: 100%;
     text-align: center;
-    padding: 15px 0;
-    background: linear-gradient(135deg, #00aaff, #0099cc); /* Light blue gradient */
+    padding: 10px 0;
+    background: #0099cc; /* Light blue */
     color: white;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: bold;
-    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
-    border-bottom: 3px solid #00feba; /* Light cyan bottom border */
-    border-radius: 10px 10px 0 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
 }
-
+body {
+    padding-top: 50px; /* Prevent content from overlapping with header */
+}
 
 
 .card {
@@ -158,4 +162,3 @@ header {
         margin-top: 15px;
     }
 }
-</style>
