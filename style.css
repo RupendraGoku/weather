@@ -15,6 +15,18 @@ body {
     padding: 20px;
 }
 
+header {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    background: linear-gradient(135deg, #00aaff, #5b548a);
+    color: #fff;
+    font-size: 26px;
+    font-weight: 600;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
 .card {
     width: 100%;
     max-width: 470px;
